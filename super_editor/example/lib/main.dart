@@ -37,11 +37,11 @@ Future<void> main() async {
   initLoggers(Level.FINEST, {
     editorGesturesLog,
     editorImeLog,
-    editorKeyLog,
+    // editorKeyLog,
     editorOpsLog,
     // editorLayoutLog,
     editorDocLog,
-    appLog,
+    // appLog,
   });
 
   runApp(SuperEditorDemoApp());
